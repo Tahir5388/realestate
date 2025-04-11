@@ -91,3 +91,9 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
+  // Toggle navigation menu on mobile
+document.getElementById('menuToggle').addEventListener('click', () => {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+  });
+  
